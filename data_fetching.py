@@ -1,10 +1,11 @@
+import csv
 import json
+import os
 import random
 import time
 from typing import Dict
+
 import requests
-import csv
-import os
 
 
 def payload(region_code: int, page_number: int) -> Dict:

@@ -1,8 +1,10 @@
+import os
+
 from config import regions
 from data_fetching import data_fetching
-from data_processing import data_preparation, create_heat_map, \
-    create_graph_average_price, create_graph_average_square
-import os
+from data_processing import (create_graph_average_price,
+                             create_graph_average_square, create_heat_map,
+                             data_preparation)
 
 if __name__ == '__main__':
     os.makedirs('output', exist_ok=True)

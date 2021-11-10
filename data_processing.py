@@ -1,12 +1,12 @@
 from typing import Dict
 
-import pandas as pd
 import numpy as np
+import pandas as pd
+import pylab as py
 from matplotlib import pyplot as plt
 from pandas import DataFrame
 from scipy import stats
 from scipy.interpolate import LinearNDInterpolator
-import pylab as py
 
 
 def data_preparation(region_name: str, region_config: Dict) -> pd.DataFrame:
