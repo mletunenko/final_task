@@ -1,8 +1,8 @@
-regions = {
+REGIONS = {
     'spb': {
         'region code': 2,
-        'first page': 3,
-        'last page': 15,
+        'first page': 1,
+        'last page': 10,
         'adress code': 1,
         'right': 30.66965560823354,
         'top': 60.10885029474389,
@@ -13,7 +13,7 @@ regions = {
     'msc': {
         'region code': 1,
         'first page': 1,
-        'last page': 15,
+        'last page': 10,
         'adress code': 2,
         'right': 37.93307377601096,
         'top': 55.91504570892229,
@@ -25,7 +25,7 @@ regions = {
     'ekb': {
         'region code': 4743,
         'first page': 1,
-        'last page': 15,
+        'last page': 10,
         'adress code': 2,
         'right': 60.81941590321779,
         'top': 56.949500434070586,
