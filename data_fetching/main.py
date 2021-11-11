@@ -4,7 +4,6 @@ import os
 import random
 import time
 from typing import Dict
-
 import requests
 
 from .config import CIAN_API_URL, CIAN_REQUEST_LAG, REFERER, USER_AGENT

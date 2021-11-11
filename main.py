@@ -1,5 +1,4 @@
 import os
-
 from config import REGIONS
 from data_fetching.main import data_fetching
 from data_processing.main import (create_graph_average_price,
