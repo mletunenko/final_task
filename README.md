@@ -153,7 +153,7 @@ _data_preparation_. Функция обрабатывает атрибут _df_ 
 ## Примеры визуализации
 - Тепловая карта
 
-![Heat map](https://github.com/mletunenko/final_task/blob/main/heatmap_example.png)
+![Heat map](https://github.com/mletunenko/final_task/blob/main/output/spb_heatmap.png)
 
 - График 
-![Bar graph](https://github.com/mletunenko/final_task/blob/main/bar_graph_example.png)
+![Bar graph](https://github.com/mletunenko/final_task/blob/main/output/ekb_graph_average_square.png)
