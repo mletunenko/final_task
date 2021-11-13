@@ -152,4 +152,4 @@ _data_preparation_. Функция обрабатывает атрибут _df_ 
 
 Примеры визуализации:
 
-![Image alt](https://github.com/mletunenko/final_task/raw/main//sbp_heatmap.png)
+![Heat map](https://github.com/mletunenko/final_task/blob/main/spb_heatmap.png)
