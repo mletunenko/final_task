@@ -150,3 +150,6 @@ _data_preparation_. Функция обрабатывает атрибут _df_ 
 - "_graph_average_price.png" для графика средней стоимости недвижимости
 - "_graph_average_square.png" для графика средней площади недвижимости
 
+Примеры визуализации:
+
+![Screenshot](sbp_heatmap.png)
