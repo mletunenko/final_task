@@ -150,6 +150,10 @@ _data_preparation_. Функция обрабатывает атрибут _df_ 
 - "_graph_average_price.png" для графика средней стоимости недвижимости
 - "_graph_average_square.png" для графика средней площади недвижимости
 
-Примеры визуализации:
+##Примеры визуализации
+- Тепловая карта
 
-![Heat map](https://github.com/mletunenko/final_task/blob/main/spb_heatmap.png)
+![Heat map](https://github.com/mletunenko/final_task/blob/main/heatmap_example.png)
+
+- График 
+![Bar graph](https://github.com/mletunenko/final_task/blob/main/bar_graph_example.png)
