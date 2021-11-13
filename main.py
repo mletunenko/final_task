@@ -1,18 +1,14 @@
 import os
 
 from config import REGIONS
-from data_fetching.main import data_fetching
-from data_processing.main import (create_graph_average_price,
-                                  create_graph_average_square, create_heat_map,
-                                  data_preparation)
+from data_fetching.main import DataFetcher
+from data_processing.main import DataProcessor
 
 if __name__ == '__main__':
     os.makedirs('data', exist_ok=True)
     os.makedirs('output', exist_ok=True)
-
     for region_name, region_config in REGIONS.items():
-        data_fetching(region_name, region_config)
-        df = data_preparation(region_name, region_config)
-        create_heat_map(df, region_name, region_config)
-        create_graph_average_price(df, region_name)
-        create_graph_average_square(df, region_name)
+        data = DataFetcher(region_name, region_config)
+        data.fetch_data()
+        region = DataProcessor(region_name, region_config)
+        region.draw()
